@@ -2,7 +2,8 @@
 @import "./utils/placeholders";
 @import "./utils/mixins";
 
-@import "./base/normalize";
+// @import "./fonts.scss";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
 
 @import "./components/common";
 @import "./components/backdrop";
@@ -16,6 +17,8 @@
 @import "./layouts/team";
 @import "./layouts/clients";
 @import "./layouts/footer";
+
+@import "./base/normalize";
 
 
 
