@@ -1,0 +1,24 @@
+// logo
+%logo {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+// social team amd footer utilities
+%social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: var(--social-color);
+}
+
+%social-icon {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+}

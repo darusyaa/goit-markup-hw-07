@@ -1,0 +1,21 @@
+@import "./utils/variables";
+@import "./utils/placeholders";
+@import "./utils/mixins";
+
+@import "./base/normalize";
+
+@import "./components/common";
+@import "./components/backdrop";
+@import "./components/modal-window";
+@import "./components/modal-form";
+
+@import "./layouts/header";
+@import "./layouts/hero";
+@import "./layouts/features";
+@import "./layouts/examples";
+@import "./layouts/team;
+@import "./layouts/clients";
+@import "./layouts/footer";
+
+
+
