@@ -137,7 +137,6 @@
     @extend %button;
     @include centeredFlex(inline-flex);
     @include transitionBase(background-color);
-    // @include transitionBase(box-shadow);
 
     border: none;
 

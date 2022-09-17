@@ -7,3 +7,11 @@
 @mixin transitionBase($type: color) {
     transition: $type 250ms $timing-function;
 }
+
+@mixin transitionBack($type: color, $type2: background-color) {
+    transition: $type 250ms $timing-function, $type2 250ms $timing-function;
+}
+
+@mixin transitionThree($type: color, $type2: background-color, $type3: box-shadow) {
+    transition: $type 250ms $timing-function, $type2 250ms $timing-function, $type3 250ms $timing-function;
+}

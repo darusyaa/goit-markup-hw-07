@@ -667,7 +667,7 @@ footer .social-link {
 
     transition: border 250ms var(--timing-function),
     color 250ms var(--timing-function);
-}    
+}
 
 .clients-icon {
     width: 106px;

@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
+    
     <!--Header-->
     <header class="header">
       <div class="header-container">
@@ -53,6 +54,7 @@
         </ul>
       </div>
     </header>
+
     <main>
       <!--Hero section-->
       <section class="hero">
@@ -220,7 +222,7 @@
                 </ul>
               </div>
             </li>
-            <li class="team-main">
+            <li class="team-list__main">
               <img
                 src="./images/olga.jpg"
                 alt="Ольга Рєпіна - член команди"
@@ -228,9 +230,9 @@
                 height="260"
               />
               <div class="team-cards">
-                <h3 class="subtitle">Ольга Рєпіна</h3>
-                <p class="position">Frontend Developer</p>
-                <ul class="team-links list">
+                <h3 class="team-cards__subtitle">Ольга Рєпіна</h3>
+                <p class="team-cards__position">Frontend Developer</p>
+                <ul class="team-cards__list">
                   <li class="team-cards__item">
                     <a
                       href="https://www.instagram.com/"
@@ -278,7 +280,7 @@
                 </ul>
               </div>
             </li>
-            <li class="team-main">
+            <li class="team-list__main">
               <img
                 src="./images/mykola.jpg"
                 alt="Микола Тарасов - член команди"
@@ -286,9 +288,9 @@
                 height="260"
               />
               <div class="team-cards">
-                <h3 class="subtitle">Микола Тарасов</h3>
-                <p class="position">Marketing</p>
-                <ul class="team-links list">
+                <h3 class="team-cards__subtitle">Микола Тарасов</h3>
+                <p class="team-cards__position">Marketing</p>
+                <ul class="team-cards__list">
                   <li class="team-cards__item">
                     <a
                       href="https://www.instagram.com/"
@@ -336,7 +338,7 @@
                 </ul>
               </div>
             </li>
-            <li class="team-main">
+            <li class="team-list__main">
               <img
                 src="./images/myhaylo.jpg"
                 alt="Михайло Єрмаков - член команди"
@@ -344,9 +346,9 @@
                 height="260"
               />
               <div class="team-cards">
-                <h3 class="subtitle">Михайло Єрмаков</h3>
-                <p class="position">UI Designer</p>
-                <ul class="team-links list">
+                <h3 class="team-cards__subtitle">Михайло Єрмаков</h3>
+                <p class="team-cards__position">UI Designer</p>
+                <ul class="team-cards__list">
                   <li class="team-cards__item">
                     <a
                       href="https://www.instagram.com/"
@@ -400,47 +402,47 @@
 
       <!-- Clients section -->
       <section class="clients">
-        <div class="container">
+        <div class="clients-container">
           <h2 class="clients-title">Постійні клієнти</h2>
-          <ul class="clients-list list">
-            <li class="clients-list-item">
-              <a href="" class="clients-link link">
-                <svg class="clients-icon">
+          <ul class="clients-list">
+            <li class="clients-list__item">
+              <a href="" class="clients-list__link">
+                <svg class="clients-list__icon">
                   <use href="./images/icons/icons.svg#first-client"></use>
                 </svg>
               </a>
             </li>
-            <li class="clients-list-item">
-              <a href="" class="clients-link link">
-                <svg class="clients-icon">
+            <li class="clients-list__item">
+              <a href="" class="clients-list__link">
+                <svg class="clients-list__icon">
                   <use href="./images/icons/icons.svg#second-client"></use>
                 </svg>
               </a>
             </li>
-            <li class="clients-list-item">
-              <a href="" class="clients-link link">
-                <svg class="clients-icon">
+            <li class="clients-list__item">
+              <a href="" class="clients-list__link">
+                <svg class="clients-list__icon">
                   <use href="./images/icons/icons.svg#third-client"></use>
                 </svg>
               </a>
             </li>
-            <li class="clients-list-item">
-              <a href="" class="clients-link link">
-                <svg class="clients-icon">
+            <li class="clients-list__item">
+              <a href="" class="clients-list__link">
+                <svg class="clients-list__icon">
                   <use href="./images/icons/icons.svg#fourth-client"></use>
                 </svg>
               </a>
             </li>
-            <li class="clients-list-item">
-              <a href="" class="clients-link link">
-                <svg class="clients-icon">
+            <li class="clients-list__item">
+              <a href="" class="clients-list__link">
+                <svg class="clients-list__icon">
                   <use href="./images/icons/icons.svg#fifth-client"></use>
                 </svg>
               </a>
             </li>
-            <li class="clients-list-item">
-              <a href="" class="clients-link link">
-                <svg class="clients-icon">
+            <li class="clients-list__item">
+              <a href="" class="clients-list__link">
+                <svg class="clients-list__icon">
                   <use href="./images/icons/icons.svg#sixth-client"></use>
                 </svg>
               </a>
@@ -538,63 +540,63 @@
     <!-- Modal -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <h2 class="backdrop-title">Залиште свої дані, ми вам передзвонимо</h2>
-        <button type="button" class="close-btn button" data-modal-close>
-          <svg class="close-icon">
+        <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
+        <button type="button" class="modal__button" data-modal-close>
+          <svg class="modal__icon">
             <use href="./images/icons/icons.svg#vector"></use>
           </svg>
         </button>
-        <form action="" class="form js-speaker-form">
+        <form action="" class="js-speaker-form">
           <div class="form-field">
-            <label for="name" class="form-label">Ім'я</label>
-            <input type="text" name="name" id="name" class="form-input" />
-            <svg class="modal-icon" width="12" height="12">
+            <label for="name" class="form-field__label">Ім'я</label>
+            <input type="text" name="name" id="name" class="form-field__input" />
+            <svg class="form-field__icon" width="12" height="12">
               <use href="./images/icons/modal-icons.svg#name"></use>
             </svg>
           </div>
           <div class="form-field">
-            <label for="tel" class="form-label">Телефон</label>
-            <input type="tel" name="tel" id="tel" class="form-input" />
-            <svg class="modal-icon" width="13" height="13">
+            <label for="tel" class="form-field__label">Телефон</label>
+            <input type="tel" name="tel" id="tel" class="form-field__input" />
+            <svg class="form-field__icon" width="13" height="13">
               <use href="./images/icons/modal-icons.svg#telef"></use>
             </svg>
           </div>
 
           <div class="form-field">
-            <label for="email" class="form-label">Пошта</label>
-            <input type="email" name="email" id="email" class="form-input" />
-            <svg class="modal-icon" width="15" height="12">
+            <label for="email" class="form-field__label">Пошта</label>
+            <input type="email" name="email" id="email" class="form-field__input" />
+            <svg class="form-field__icon" width="15" height="12">
               <use href="./images/icons/modal-icons.svg#mail"></use>
             </svg>
           </div>
 
-          <div class="form-field comm">
-            <label for="comment" class="form-label">Коментар</label>
+          <div class="form-field form-field--comm">
+            <label for="comment" class="form-field__label">Коментар</label>
             <textarea
               name="comment"
               id="comment"
               placeholder="Введіть текст"
               cols="30"
               rows="10"
-              class="comment"
+              class="form-field__comment"
             ></textarea>
           </div>
 
-          <div class="form-field term">
-            <label for="terms" class="form-label term">
+          <div class="form-field form-field--term">
+            <label for="terms" class="form-field__label form-field__label--term">
               <input
                 type="checkbox"
                 name="terms"
                 id="terms"
-                class="form-checkbox"
+                class="form-field__checkbox"
               />
-              <span class="icon-check"></span>
+              <span class="form-field__icon--check"></span>
               Погоджуюся з розсилкою та приймаю
-              <a class="term-link" href="">Умови договору</a>
+              <a class="form-field__link" href="">Умови договору</a>
             </label>
           </div>
 
-          <button type="submit" class="button">Відправити</button>
+          <button type="submit" class="form-field__button">Відправити</button>
         </form>
       </div>
     </div>

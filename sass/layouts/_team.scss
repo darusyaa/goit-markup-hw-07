@@ -1,7 +1,9 @@
-.team-section {
-    @extend %section;
-
+.team {
     background-color: $secondary-bg-color;
+}
+
+.team-container {
+    @extend %container;
 }
 
 .team-title {
@@ -64,8 +66,14 @@
 }
 
 .team-cards__link {
-    @extend %icon;
+    @extend %link;
     @extend %social-link;
+    @include transitionBack();
+
+    &:hover, .team .social-link:focus {
+        color: $white-color;
+        background-color: $accent-color;
+    }
 }
 
 .team-cards__icon {
