@@ -2,10 +2,9 @@
 @import "./utils/placeholders";
 @import "./utils/mixins";
 
-// @import "./fonts.scss";
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
+@import "./base/common";
+@import "./base/reset";
 
-@import "./components/common";
 @import "./components/backdrop";
 @import "./components/modal-window";
 @import "./components/modal-form";
@@ -16,9 +15,10 @@
 @import "./layouts/examples";
 @import "./layouts/team";
 @import "./layouts/clients";
+@import "./layouts/portfolio";
 @import "./layouts/footer";
 
-@import "./base/normalize";
+
 
 
 
